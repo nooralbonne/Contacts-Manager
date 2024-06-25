@@ -52,21 +52,30 @@ This project is a simple contact management application written in C#. It allows
 
 ## Usage
 
-The application supports three actions: `add`, `remove`, and `view`. Below are the contact names used in the sample code:
-
-- Initial contacts: `"Alice"`, `"Bob"`, `"Charlie"`
-- New contact to add: `"David"`
+The application supports three actions: `add`, `remove`, and `view`. It interacts with the user via the console, repeatedly asking for the operation to perform until the user chooses to exit.
 
 ### Example Operations
 
 1. **Add a Contact**
-    - Adds `"David"` to the list of contacts.
+    - Prompts the user to enter a contact name to add to the list.
+    - Example: Adding `"David"` to the list of contacts.
 
 2. **Remove a Contact**
-    - Removes `"David"` from the list of contacts.
+    - Prompts the user to enter a contact name to remove from the list.
+    - Example: Removing `"David"` from the list of contacts.
 
 3. **View All Contacts**
-    - Displays all contacts in the list.
+    - Displays all contacts currently in the list.
+
+4. **Exit**
+    - Exits the application.
+
+### Initial Contacts
+
+The application starts with the following contacts:
+- `"Alice"`
+- `"Bob"`
+- `"Charlie"`
 
 ## License
 
