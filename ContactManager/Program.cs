@@ -10,7 +10,7 @@
             {
                 // Display menu options
                 Console.WriteLine("What operation do you want to perform?");
-                Console.WriteLine("1. Add a contact");
+                Console.WriteLine("1. Add a contact");  
                 Console.WriteLine("2. Remove a contact");
                 Console.WriteLine("3. View all contacts");
                 Console.WriteLine("4. Exit");
