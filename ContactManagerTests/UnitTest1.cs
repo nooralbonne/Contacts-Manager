@@ -73,6 +73,7 @@ namespace ContactManagerTests
 
             // Act
             List<string> result = ContactManager.CManager.ContactsManager(new List<string>(contacts), action);
+               
 
             // Assert
             Assert.Equal(contacts, result);
